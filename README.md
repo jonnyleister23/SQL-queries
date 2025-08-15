@@ -1,7 +1,7 @@
 # Apply filters to SQL queries
 ## Project description
 As part of an internal security initiative, I was responsible for strengthening system defenses, investigating suspicious activity, and coordinating updates across devices. This involved writing SQL queries to extract relevant data from our system logs and employee records. Below are examples of how I used SQL filters to support these efforts.
-##Retrieve after hours failed login attempts
+## Retrieve after hours failed login attempts
 A potential breach was flagged outside of normal business hours.I needed to identify all failed login attempts that occurred during that time window.
 
 The query pulls entries from the log_in_attempts table where the login time is after 18:00 and the attempt was unsuccessful. I used a WHERE clause with AND to combine both conditions:
