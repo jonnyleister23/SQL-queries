@@ -1,4 +1,4 @@
-# Apply filters to SQL queries
+# Apply filters to SQL queries (Google Cybersecurity Lab)
 ## Project description
 As part of an internal security initiative, I was responsible for strengthening system defenses, investigating suspicious activity, and coordinating updates across devices. This involved writing SQL queries to extract relevant data from our system logs and employee records. Below are examples of how I used SQL filters to support these efforts.
 ## Retrieve after hours failed login attempts
